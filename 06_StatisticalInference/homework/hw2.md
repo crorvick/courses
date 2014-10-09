@@ -167,7 +167,7 @@ You don't believe that your friend can discern good wine from cheap. Assuming
 that you're right, in a blind test where you randomize 6 paired varieties (Merlot,
 Chianti, ...) of cheap and expensive wines
 
-1. what is the chance that she gets 5 or 6 right expressed as a percentage
+1. What is the chance that she gets 5 or 6 right expressed as a percentage
 to one decimal place?
 
 *** .hint
@@ -192,7 +192,7 @@ Consider a uniform distribution. If we were to sample 100 draws from a
 a uniform distribution (which has mean 0.5, and variance 1/12) and take their
 mean, $\bar X$
 
-1. what is the approximate probability of getting as large as 0.51 or larger expressed to 3 decimal places?
+1. What is the approximate probability of getting as large as 0.51 or larger expressed to 3 decimal places?
 
 *** .hint
 Use the central limit theorem that says $\bar X \sim N(\mu, \sigma^2/n)$
@@ -215,7 +215,7 @@ round(pnorm(.51, mean = 0.5, sd = sqrt(1 / 12 / 100), lower.tail = FALSE), 3)
 
 If you roll ten standard dice, take their average, then repeat this process over and over and construct a histogram, 
 
-1. what would it be centered at?
+1. What would it be centered at?
 
 
 *** .hint
@@ -232,7 +232,7 @@ individual draws were taken from.
 
 If you roll ten standard dice, take their average, then repeat this process over and over and construct a histogram, 
 
-1. what would be its variance expressed to 3 decimal places?
+1. What would be its variance expressed to 3 decimal places?
 
 *** .hint
 $$Var(\bar X) = \sigma^2 /n$$
