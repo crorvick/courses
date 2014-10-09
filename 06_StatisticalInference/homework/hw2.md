@@ -14,7 +14,6 @@ mode        : selfcontained # {standalone, draft}
 ---
 
 
-
 ## About these slides
 - These are some practice problems for Statistical Inference Quiz 2
 - They were created using slidify interactive which you will learn in 
@@ -65,7 +64,6 @@ round(pnorm(93, mean = 100, sd = 10) * 100)
 ```
 
 
-
 --- &radio
 Suppose 5% of housing projects have issues with asbestos. The sensitivity of a test
 for asbestos is 93% and the specificity is 88%. What is the probability that a 
@@ -96,7 +94,6 @@ $$
 ```
 [1] 0.9958
 ```
-
 
 
 
@@ -132,7 +129,6 @@ round(qnorm(.05, mean = 100, sd = 10, lower.tail = FALSE), 3)
 ```
 
 
-
 ---  &multitext
 Suppose that the number of web hits to a particular site are approximately normally
 distributed with a mean of 100 hits per day and a standard deviation of 10 hits per day. 
@@ -165,7 +161,6 @@ round(qnorm(.05, mean = 100, sd = 10 / sqrt(50), lower.tail = FALSE), 3)
 [1] 102.3
 ```
 
-
 --- &multitext
 
 You don't believe that your friend can discern good wine from cheap. Assuming
@@ -191,7 +186,6 @@ round(pbinom(4, prob = .5, size = 6, lower.tail = FALSE) * 100, 1)
 [1] 10.9
 ```
 
-
 --- &multitext
 
 Consider a uniform distribution. If we were to sample 100 draws from a 
@@ -215,7 +209,6 @@ round(pnorm(.51, mean = 0.5, sd = sqrt(1 / 12 / 100), lower.tail = FALSE), 3)
 ```
 [1] 0.365
 ```
-
 
 
 --- &multitext
@@ -251,13 +244,12 @@ where $\sigma^2$ is the variance of a single die roll, which is
 
 
 ```r
-mean((1 : 6 - 3.5)^2)
+mean((1 : 6 - 3.5)^2 / 10)
 ```
 
 ```
-[1] 2.917
+[1] 0.2917
 ```
-
 
 --- &multitext
 The number of web hits to a site is Poisson with mean 16.5 per day. 
@@ -278,7 +270,6 @@ round(ppois(20, lambda = 16.5 * 2) * 100, 1)
 ```
 [1] 1
 ```
-
 
 
 
